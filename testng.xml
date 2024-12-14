@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="PetStoreUserSuite">
+	<listeners>
+		<listener class-name="api.utilities.ExtentReportManager" />
+	</listeners>
+	<test name="CRUD Functions">
+		<classes>
+			<class name="api.test.UserTests" />
+		</classes>
+	</test>
+</suite>
